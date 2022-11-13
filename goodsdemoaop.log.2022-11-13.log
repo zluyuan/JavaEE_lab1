@@ -1,0 +1,19 @@
+2022-11-13 04:57:07.935 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.5.Final
+2022-11-13 04:57:07.966 [main] INFO  c.edu.xmu.javaee.goodsdemo.GoodsDemoAopApplication - Starting GoodsDemoAopApplication v0.0.1-SNAPSHOT using Java 11.0.16 on d0940d763b36 with PID 1 (/app/app.jar started by root in /app)
+2022-11-13 04:57:07.979 [main] DEBUG c.edu.xmu.javaee.goodsdemo.GoodsDemoAopApplication - Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-11-13 04:57:07.980 [main] INFO  c.edu.xmu.javaee.goodsdemo.GoodsDemoAopApplication - No active profile set, falling back to 1 default profile: "default"
+2022-11-13 04:57:10.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-11-13 04:57:10.204 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-13 04:57:10.204 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-11-13 04:57:10.204 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-13 04:57:10.288 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-11-13 04:57:10.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2224 ms
+2022-11-13 04:57:10.469 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-11-13 04:57:11.200 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-11-13 04:57:12.466 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2022-11-13 04:57:12.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-13 04:57:12.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-13 04:57:12.552 [main] INFO  c.edu.xmu.javaee.goodsdemo.GoodsDemoAopApplication - Started GoodsDemoAopApplication in 5.175 seconds (JVM running for 5.932)
+2022-11-13 04:57:12.559 [main] DEBUG cn.edu.xmu.javaee.core.util.JwtHelper - createToken:
+2022-11-13 04:57:12.563 [main] DEBUG cn.edu.xmu.javaee.core.util.JwtHelper - createToken: userId = 1 userName=13088admin departId=0 tokenId:202211130457125CLA
+2022-11-13 04:57:12.582 [main] INFO  cn.edu.xmu.javaee.goodsdemo.config.StartupRunner - test token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0aGlzIGlzIGEgdG9rZW4iLCJhdWQiOiJNSU5JQVBQIiwidXNlckxldmVsIjoxLCJ0b2tlbklkIjoiMjAyMjExMTMwNDU3MTI1Q0xBIiwiaXNzIjoiT09BRCIsImRlcGFydElkIjowLCJ1c2VyTmFtZSI6IjEzMDg4YWRtaW4iLCJleHAiOjE2Njg0MDE4MzIsInVzZXJJZCI6MSwiaWF0IjoxNjY4MzE1NDMyfQ.QOk5dLUEYEMEQjQ0LZcE_uusOwX54zGKOPu5LdCXu4g
