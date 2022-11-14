@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1668349675767,49,HTTP请求,201,,线程组 1-1,text,true,,473,612,2,2,http://172.16.3.190:8080/admin/products,45,0,22
+1668349675781,35,HTTP请求,201,,线程组 1-2,text,true,,473,612,2,2,http://172.16.3.190:8080/admin/products,31,0,8
+1668349675880,23,HTTP请求,201,,线程组 1-3,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,23,0,1
+1668349675972,17,HTTP请求,201,,线程组 1-4,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,16,0,1
+1668349676069,17,HTTP请求,201,,线程组 1-5,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,17,0,1
+1668349676164,17,HTTP请求,201,,线程组 1-6,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,16,0,1
+1668349676262,16,HTTP请求,201,,线程组 1-7,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,16,0,1
+1668349676358,28,HTTP请求,201,,线程组 1-8,text,true,,472,612,1,1,http://172.16.3.190:8080/admin/products,28,0,1
+1668349676460,14,HTTP请求,201,,线程组 1-9,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,14,0,1
+1668349676559,17,HTTP请求,201,,线程组 1-10,text,true,,473,612,1,1,http://172.16.3.190:8080/admin/products,17,0,1
